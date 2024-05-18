@@ -1,4 +1,4 @@
-# You can view the live project here : [Live](https://6648ba867c57cae086ac9301--cheerful-lokum-effd4a.netlify.app/).
+# You can view the live project here : [Live My App](https://6648ba867c57cae086ac9301--cheerful-lokum-effd4a.netlify.app/).
 
 
 # Features
