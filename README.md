@@ -1,4 +1,5 @@
-# You can view the live project here :  LIve ('https://6648ba867c57cae086ac9301--cheerful-lokum-effd4a.netlify.app/')
+# You can view the live project here : [Live](https://6648ba867c57cae086ac9301--cheerful-lokum-effd4a.netlify.app/).
+
 
 # Features
 1. View Recipes Category Wise: Users can view recipes categorized by types.
