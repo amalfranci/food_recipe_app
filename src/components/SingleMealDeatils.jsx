@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
-import { FaHeart } from "react-icons/fa";
+import { FaBeer } from "react-icons/fa";
 import ReactPlayer from "react-player/youtube";
 import { addToCart } from "../redux/favouriteSlice";
-import Loader from "./Loader";
-import NotFound from "./NotFound";
 
 function SingleMealDeatils() {
   const [meal, setMeal] = useState(null);
@@ -72,7 +70,7 @@ function SingleMealDeatils() {
             className="absolute top-2 right-2 bg-green-500 text-white px-3 py-1 outline-none rounded-md flex items-center gap-2"
             onClick={handleClick}
           >
-            <FaHeart />
+            <FaBeer />
             Add To Favourite
           </button>
         </div>
