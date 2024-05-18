@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { FaBeer } from "react-icons/fa";
 import ReactPlayer from "react-player/youtube";
 import { addToCart } from "../redux/favouriteSlice";
+import Loader from "./Loader";
 
 function SingleMealDeatils() {
   const [meal, setMeal] = useState(null);
@@ -47,7 +48,7 @@ function SingleMealDeatils() {
   };
 
   if (loading) {
-    return <Loader />;
+    return <Loader/>;
   }
   if (!meal) {
     return <NotFound />;
